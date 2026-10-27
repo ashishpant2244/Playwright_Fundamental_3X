@@ -9,3 +9,7 @@ node_modules/
 
 # Command Code tooling
 .commandcode/
+
+# Local secrets and saved browser sessions
+.env
+user-session.json

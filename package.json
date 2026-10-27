@@ -2,7 +2,9 @@
   "name": "playwright_fundamental_3x",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "go": "node scripts/go.mjs"
+  },
   "keywords": [],
   "author": "Ashish Pant",
   "license": "MIT",
@@ -10,5 +12,8 @@
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
   }
 }
